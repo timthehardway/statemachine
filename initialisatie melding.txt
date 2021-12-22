@@ -1,0 +1,17 @@
+In file included from src\SlaveSerial.cpp:1:0:
+include/SlaveSerial.h: In constructor 'SlaveSerial::SlaveSerial(uint8_t, uint8_t)':
+include/SlaveSerial.h:22:21: warning: 'SlaveSerial::buffer' will be initialized after [-Wreorder]
+   char buffer[BUFLEN];
+                     ^
+include/SlaveSerial.h:21:10: warning:   'String SlaveSerial::incomingMessage' [-Wreorder]
+   String incomingMessage;
+          ^~~~~~~~~~~~~~~
+src\SlaveSerial.cpp:3:1: warning:   when initialized here [-Wreorder]
+ SlaveSerial::SlaveSerial(uint8_t rxPin, uint8_t txPin)
+ ^~~~~~~~~~~
+src\SlaveSerial.cpp:9:43: warning: list-initializer for non-class type must not be parenthesized
+   , communicationState(WAITING_FOR_MESSAGE)
+                                           ^
+src\SlaveSerial.cpp: In destructor 'SlaveSerial::~SlaveSerial()':
+src\SlaveSerial.cpp:15:10: warning: deleting object of polymorphic class type 'SoftwareSerial' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+   delete serialConnection;

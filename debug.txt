@@ -1,0 +1,126 @@
+␀␀␀␀setColor(RED).
+State::setup() of: 1
+State::setup() of: 2
+State::setup() of: 3
+State::setup() of: 4
+Number of states is now: 1
+Number of states is now: 2
+Number of states is now: 3
+Number of states is now: 4
+setColor(RED).
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent NACK, false is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+getState() is called with: 2
+State found on index: 1
+////// CURRENT STATE NOW SET TO: 2
+StateConnecting::exit()
+StateLightMasterGreen::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+setColor(GREEN).
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+getState() is called with: 4
+State found on index: 3
+////// CURRENT STATE NOW SET TO: 4
+StateLightMasterGreen::exit()
+setColor(RED).
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
+sendMessage() sent to slave: BEAT
+sendMessageAndCheckReply(): slave sent ACK, true is returned.
+StateConnecting::enter()
